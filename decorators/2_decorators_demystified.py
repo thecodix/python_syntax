@@ -25,11 +25,17 @@ def ingredients(func):
 def sandwich(food="--ham--"):
     print(food)
 
-# sandwich()
+sandwich()
 # outputs: --ham--
 
-# sandwich = bread(ingredients(sandwich))
-# sandwich()
+sandwich = bread(ingredients(sandwich))
+sandwich()
+# outputs:
+# </''''''\>
+#  #tomatoes#
+#  --ham--
+#  ~salad~
+# <\______/>
 
 # Using the Python decorator syntax:
 
