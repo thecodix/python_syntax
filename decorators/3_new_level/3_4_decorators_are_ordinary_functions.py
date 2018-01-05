@@ -1,4 +1,8 @@
-# Decorators are ORDINARY functions
+"""
+Decorators are ORDINARY functions
+"""
+
+
 def my_decorator(func):
     print("I am an ordinary function")
 

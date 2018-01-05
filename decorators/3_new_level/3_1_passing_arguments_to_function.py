@@ -21,5 +21,5 @@ def print_full_name(first_name, last_name):
 
 print_full_name("Peter", "Venkman")
 # outputs:
-#I got args! Look: Peter Venkman
-#My name is Peter Venkman
+# I got args! Look: Peter Venkman
+# My name is Peter Venkman
