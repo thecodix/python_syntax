@@ -9,6 +9,7 @@ def my_decorator(func):
     def wrapper():
         print("I am function returned by the decorator")
         func()
+
     return wrapper
 
 # Therefore, you can call it without any "@"
